@@ -165,8 +165,8 @@ function moveJS() {
 
 function moveAssets() {
   return new Promise(function(resolve, reject) {
-    var stream = gulp.src(['main/assets/img/**'], { allowEmpty: true })
-    .pipe(gulp.dest(assetsFolder+'img'));
+    var stream = gulp.src(['main/assets/**'], { allowEmpty: true })
+    .pipe(gulp.dest(assetsFolder));
     
     stream.on('finish', function() {
       resolve();
