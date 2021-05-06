@@ -26,35 +26,12 @@
   //               0 46px 60px -6px rgba(0, 0, 0, 0.2);
 }
 
-// --------------------------------
-
-// (START) Global editor code https://codyhouse.co/ds/globals/shared-styles
-
-// --------------------------------
-
 .hover\:reduce-opacity {
   opacity: 1;
   transition: all 0.3s ease;
 
   &:hover {
     opacity: 0.8;
-  }
-}
-
-.hover\:scale {
-  transition: transform 0.3s var(--ease-out-back);
-
-  &:hover {
-    transform: scale(1.1);
-  }
-}
-
-.hover\:elevate {
-  box-shadow: var(--shadow-sm);
-  transition: all 0.3s ease;
-
-  &:hover {
-    box-shadow: var(--shadow-md);
   }
 }
 
@@ -70,8 +47,3 @@
   }
 }
 
-// --------------------------------
-
-// (END) Global editor code
-
-// --------------------------------

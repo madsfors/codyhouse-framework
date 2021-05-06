@@ -1,9 +1,3 @@
-// --------------------------------
-
-// (START) Global editor code https://codyhouse.co/ds/globals/forms
-
-// --------------------------------
-
 :root {
   --form-control-padding-y: var(--space-xxs); // padding top/bottom
   --form-control-padding-x: var(--space-xs); // padding left/right
@@ -34,7 +28,6 @@
   border-color: var(--color-error);
 
   &:focus {
-    border-color: var(--color-error);
     box-shadow: 0 0 0 2px alpha(var(--color-error), 0.2);
   }
 }
@@ -47,9 +40,3 @@
 
 .form-legend {}
 .form-label {}
-
-// --------------------------------
-
-// (END) Global editor code
-
-// --------------------------------
